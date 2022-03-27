@@ -1,0 +1,67 @@
+body{
+
+	text-align: center;
+	background-color: rgb(255, 190, 147);
+
+}
+
+#button_start{
+
+    margin: 30px;
+	background-color: rgb(8, 8, 189);
+	color: rgb(255, 255, 255);
+	border-width: 0px;
+	border-radius: 20px;
+	font-size: 50px;
+	font-family: 'Tangerine', cursive;
+	transition: transform 1s, background-color 1s, color 1s;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#button_start:hover{
+
+	transform: scale(1.5);
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 189);
+
+}
+
+#status{
+
+	font-family: 'Tangerine', cursive;
+	font-size: 40px;
+    color: aliceblue;
+
+}
+
+h3{
+
+	font-family: 'Neonderthaw', cursive;
+	font-size: 70px;
+
+}
+
+canvas{
+
+    background-color: aliceblue;
+    animation-name: glow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: 95%;
+    height: 50%;
+
+}
+
+@keyframes glow{
+
+    0%{border-radius: 20px;}
+    20%{border-radius: 40px;}
+    40%{border-radius: 60px;}
+    60%{border-radius: 80px;}
+    80%{border-radius: 50px;}
+    100%{border-radius: 20px;}
+
+}
